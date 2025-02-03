@@ -1,10 +1,12 @@
-<h1>Portal da Transparência - Análise de Viagens de Servidores</h1>
+<h1>Portal da Transparência - Análise de Viagens de Servidores 2023 </h1>
 
 Projeto para análise de dados de despesas públicas em viagens.
 Neste caso é necessário mais atenção aos OUTLIERS, pois se tratam de uma análise das maiores despesas individuais, em poucos dias de viagem e muito acima da média geral.
 Os OUTLIERS, normalmente são excluídos ao tratar dados faltantes, neste caso não podem, e este é um exemplo.
 
 Este repositório tem como objetivo explorar os dados disponibilizados pelo Portal da Transparência sobre viagens realizadas por servidores públicos, buscando identificar padrões, despesas e possíveis anomalias.
+
+**Com este projeto é possível analisar outros anos, desde que os campos sejam os mesmos.**
 
 <h1>Baixar Dados</h1>
 
