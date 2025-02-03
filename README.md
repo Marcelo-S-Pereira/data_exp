@@ -1,5 +1,9 @@
 <h1>Portal da Transparência - Análise de Viagens de Servidores</h1>
 
+Projeto para análise de dados de despesas públicas em viagens.
+Neste caso é necessário mais atenção aos OUTLIERS, pois se tratam de uma análise das maiores despesas indivíduais, em poucos dias de viage e muito acima da média geral.
+Os OUTLIERS, normalmente são excluídos ao tratar dados faltantes, neste caso não podem, e este é um exemplo.
+
 Este repositório tem como objetivo explorar os dados disponibilizados pelo Portal da Transparência sobre viagens realizadas por servidores públicos, buscando identificar padrões, despesas e possíveis anomalias.
 
 <h1>Baixar Dados</h1>
@@ -65,7 +69,7 @@ plt.savefig(caminho_graf1, bbox_inches='tight')
 plt.savefig(caminho_graf2, bbox_inches='tight')
 ```
 
-<h1>Casos de Destaque</h1>
+<h1>OUTLIERS - Casos de Destaque</h1>
 
 **Viagem de Destaque**
 
