@@ -1,7 +1,7 @@
 <h1>Portal da Transparência - Análise de Viagens de Servidores</h1>
 
 Projeto para análise de dados de despesas públicas em viagens.
-Neste caso é necessário mais atenção aos OUTLIERS, pois se tratam de uma análise das maiores despesas indivíduais, em poucos dias de viage e muito acima da média geral.
+Neste caso é necessário mais atenção aos OUTLIERS, pois se tratam de uma análise das maiores despesas individuais, em poucos dias de viagem e muito acima da média geral.
 Os OUTLIERS, normalmente são excluídos ao tratar dados faltantes, neste caso não podem, e este é um exemplo.
 
 Este repositório tem como objetivo explorar os dados disponibilizados pelo Portal da Transparência sobre viagens realizadas por servidores públicos, buscando identificar padrões, despesas e possíveis anomalias.
