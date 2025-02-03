@@ -1,14 +1,14 @@
-**Portal da Transparência - Análise de Viagens de Servidores**
+<h1>Portal da Transparência - Análise de Viagens de Servidores</h1>
 
 Este repositório tem como objetivo explorar os dados disponibilizados pelo Portal da Transparência sobre viagens realizadas por servidores públicos, buscando identificar padrões, despesas e possíveis anomalias.
 
-Baixar Dados
+<h1>Baixar Dados</h1>
 
 Os dados utilizados podem ser baixados diretamente do Portal da Transparência:
 
 Portal da Transparência - Download de Dados de Viagens
 
-Configuração Inicial
+<h1>Configuração Inicial</h1>
 
 Defina o ano desejado para análise:
 
@@ -18,10 +18,9 @@ caminho_dados = f'/caminho/para/dados/{Ano}_Viagem.csv'
 caminho_output = f'/caminho/para/output/Viagens-Passagens-trechos_{Ano}.xlsx'
 ```
 
+Certifique-se de criar uma pasta e alterar e editar o caminho referente a pasta que estão os arquivos.
 
-Certifique-se de que os arquivos de dados estejam salvos no caminho configurado.
-
-Bibliotecas Utilizadas
+<h1>Bibliotecas Utilizadas
 
 pandas
 
@@ -29,15 +28,13 @@ matplotlib
 
 plotly.express
 
-Instale as bibliotecas com:
 
-pip install pandas matplotlib plotly
 
-Análise Explorátoria
+<h1>Análise Explorátoria</h1>
 
 A análise inclui as seguintes etapas:
 
-1. Conversão e Limpeza de Dados
+**1. Conversão e Limpeza de Dados**
 
 Configuração de opções do pandas para melhor visualização.
 
@@ -45,13 +42,13 @@ Conversão de colunas de datas.
 
 Criação de colunas para despesas totais e duração da viagem.
 
-2. Normalização de Cargos
+**2. Normalização de Cargos**
 
 Preenchimento de valores nulos para cargos.
 
 Criação de dataframe consolidado com colunas agregadas (despesas médias, totais, duração média, destinos mais frequentes e número de viagens).
 
-3. Visualização de Dados
+**3. Visualização de Dados**
 
 Gráficos gerados para melhor compreensão dos dados:
 
@@ -63,22 +60,24 @@ Dispersão de Dias de Viagem por Despesas
 
 Salvamento dos gráficos:
 
+```python
 plt.savefig(caminho_graf1, bbox_inches='tight')
 plt.savefig(caminho_graf2, bbox_inches='tight')
+```
 
-Casos de Destaque
+<h1>Casos de Destaque</h1>
 
-Viagem de Destaque
+**Viagem de Destaque**
 
 Uma viagem de 9 dias realizada por Ministério, com gasto superior a R$ 190 mil, incluiu visitas oficiais a Jacarta/Indonésia e Phnom Penh/Camboja. Houve alterações de itinerário devido a ações na Faixa de Gaza.
 
-Dados Relacionados
+**Dados Relacionados**
 
-Identificador do processo de viagem: 19194886
+Identificador do processo de viagem: **19194886**
 
 Possíveis dados adicionais podem ser encontrados no arquivo de passagens.
 
-Outras Viagens Relevantes
+**Outras Viagens Relevantes**
 
 2 Viagens com +130 Dias:
 
@@ -90,7 +89,7 @@ Destino: Xangai/China
 
 Gasto superior a R$ 190 mil.
 
-Viagem de 216 Dias:
+**Viagem de 216 Dias:**
 
 Solicitante: Polícia Federal
 
@@ -98,11 +97,11 @@ Despesa: +R$ 184 mil
 
 Destino sigiloso.
 
-Conclusão
+<h1>Conclusão</h1>
 
 A análise evidencia padrões relevantes e aponta para outliers que necessitam de atenção, como viagens com despesas elevadas em curtos períodos e gastos não identificáveis. Os dados fornecem subsídios para um melhor entendimento das despesas públicas com viagens de servidores.
 
-Recomendações Finais
+<h1>Recomendações Finais</h1>
 
 Consultar os arquivos de Passagens e Trechos para investigação detalhada.
 
@@ -110,6 +109,6 @@ Identificar padrões de viagens com alto custo e baixa duração.
 
 Avaliar o impacto de cargos protegidos por sigilo nas despesas totais.
 
-Contato
+<h1>Contato</h1>
 
 Caso tenha dúvidas ou sugestões, entre em contato via GitHub Issues.
